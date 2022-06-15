@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Directions</title>
+    <style>
+        .flex-container{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            list-style: none;
+
+        }
+        .flex-item{
+            background-color: rgb(71, 19, 214);
+            height: 100px;
+            width: 100px;
+            line-height: 100px;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 30px;
+            margin: 5px;
+            color: white;
+        }
+        .flex-item2{
+            background-color: rgb(19, 214, 61);
+            height: 100px;
+            width: 100px;
+            line-height: 100px;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 30px;
+            margin: 5px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <ul class="flex-container">
+        <li class="flex-item">1</li>
+        <li class="flex-item2">2</li>
+        <li class="flex-item">3</li>
+    </ul>
+    <ul class="flex-container">
+        <li class="flex-item2">4</li>
+        <li class="flex-item">5</li>
+        <li class="flex-item2">6</li>
+    </ul>
+    <ul class="flex-container">
+        <li class="flex-item">7</li>
+        <li class="flex-item2">8</li>
+        <li class="flex-item">9</li>
+    </ul>
+</body>
+</html>
