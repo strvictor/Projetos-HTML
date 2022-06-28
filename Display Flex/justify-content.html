@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justify Content</title>
+        <style>
+            body{
+                background-color: rgba(200, 255, 72, 0.712);
+                margin: 0;
+            }
+            h1{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 40px;
+                text-align: center;
+             
+            }
+            .content{
+                max-width: 5000px;
+                height: 70px;
+                border: 2px ;
+                margin: 0;
+                display: flex;
+                background-color: rgb(240, 167, 78);
+            }
+            .item{
+                background-color: rgb(165, 233, 165);
+                color: white;
+                margin: 10px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 20px;
+                text-align: center;
+                padding: 10px;
+                border-radius: 10px;
+               
+            }
+            .flex-end{
+                justify-content: flex-end;
+            }
+            .img{
+                justify-content: flex-start;
+                height: 60px;
+        
+            }
+        </style>
+</head>
+<body>
+    <section class="content flex-end">
+        <img src="Figura-Pipi-Sophie-PNG.png" alt="img" class="">
+        <div class="item">home</div>
+        <div class="item">sobre</div>
+        <div class="item">produtos</div>
+    </section>
+    
+    <h1>Site de Compras</h1>
+    <form action="">
+        <input type="text"><br>
+        <input type="checkbox" name="oi" id="oi"><br>
+        <input type="button" value="clique "><br>
+        <input type="color" name="" id=""><br>
+        <input type="date" name="" id=""><br>
+        <input type="datetime" name="" id=""><br>
+        <input type="datetime-local" name="" id=""><br>
+        <input type="email" name="" id="" value="email "><br>
+        <input type="file" name="" id="" value="arquivo"><br>
+        <input type="reset" value="reset"><br>
+        <input type="range" name="" id=""><br>
+        <input type="hidden submit" name="aqui" value="test">
+    </form>
+</body>
+</html>
